@@ -24,7 +24,7 @@
 
 // Note:   Please forgive my occasional lack of formality when naming my custom types/variables/etc...
 //         Also please excuse my wide-spread usage of magic numbers and possible violation of common programming
-//             norms (Hey at least I refrained from using 'goto' anywhere in this project). 
+//             norms. [Hey at least I refrained from using 'goto' anywhere in this project] 
 
 #ifndef FP_EXPERIMENT_H_
 #define FP_EXPERIMENT_H_ 
