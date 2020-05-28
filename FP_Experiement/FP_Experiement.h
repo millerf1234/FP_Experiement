@@ -16,6 +16,11 @@
 //                  infinity/NAN checks between doubles and floats 
 //
 
+// Programmer:  Forrest Miller
+// Date:        May 27, 2020 
+
+
+// Note:   Please forgive my occasional lack of formality when naming my custom types/variables/etc...
 
 #ifndef FP_EXPERIMENT_H_
 #define FP_EXPERIMENT_H_ 
@@ -30,7 +35,7 @@
 #include <iomanip>
 
 //Customize what data is compared with 'operator==()'
-//Must define at least one of the following
+// (Must define at least one)
 #define RUN_FLOAT_COMPARISON
 #define RUN_DOUBLE_COMPARISON
 #define RUN_BYTE_COMPARISON
