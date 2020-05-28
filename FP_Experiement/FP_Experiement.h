@@ -12,8 +12,10 @@
 //                     how floats and doubles work]
 
 //
-// Future Work:     It would be really easy to add overflow/underflow representation checks and
-//                  infinity/NAN checks between doubles and floats 
+// Future Work:     It would be really easy to add checks for how floats and doubles differ
+//                  with representing the values of infinity/NAN. Could be added with probably
+//                  as little as 3 more lines of code each (slightly more lines would be required
+//                  to match the output format announcing each existing test). 
 //
 
 // Programmer:  Forrest Miller
@@ -21,6 +23,8 @@
 
 
 // Note:   Please forgive my occasional lack of formality when naming my custom types/variables/etc...
+//         Also please excuse my wide-spread usage of magic numbers and possible violation of common programming
+//             norms (Hey at least I refrained from using 'goto' anywhere in this project). 
 
 #ifndef FP_EXPERIMENT_H_
 #define FP_EXPERIMENT_H_ 
